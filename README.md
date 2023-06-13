@@ -32,8 +32,9 @@ belong to which areas of the business so that specific actions can be performed.
 * `npm run watch`   watch for changes and compile
 * `npm run test`    perform the jest unit tests
 * `cdk deploy surecloud-cdk-scenario-prerequisite-stack` deploy prerequisite stack to your default AWS account/region
+* `cdk deploy tag-reader-stack` deploy tag reader stack to your default AWS account/region
 * `cdk diff`        compare deployed stacks with current state
 * `cdk synth`       emits the synthesized CloudFormation template
 * `cdk destroy surecloud-cdk-scenario-prerequisite-stack` destroys prerequisite stack from your default AWS
   account/region
-
+* `cdk destroy tag-reader-stack` destroys th tag reader stack from your default AWS account/region
